@@ -115,7 +115,7 @@
                     Console.WriteLine("Invalid input");
                 }
             }
-                Console.WriteLine("--------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------------");
             Console.WriteLine("Do you want to solve another problem? (yes/no)");
             string answer2 = Console.ReadLine();
             if (answer2 == "yes")
