@@ -61,7 +61,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            Triangle triangle = new Triangle(10, 5);
+            triangle.GetArea();
         }
     }
 }
