@@ -26,7 +26,7 @@
 
             Random random1 = new Random();
             int index, index1, index2, index3, index4, index5, index6, index7;
-            string[] choices = { "PSG", "MNU", "LIV", "JUV", "BAY", "RMA", "BAR", "MCI", "ATH", "CHE" };
+            string[] choices = { "LIV", "MNU", "PSG", "ARS", "RMA", "BAR", "MCI", "CHE"};
 
             index = random1.Next(choices.Length);
             string team1 = choices[index];
